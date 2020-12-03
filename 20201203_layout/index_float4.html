@@ -27,13 +27,49 @@
 		}
 		header.header>nav.nav>ul>li>a:hover{background-color:pink;color:white;}
 
+		/*visual*/
+		div.visual_slider{
+			height: 300px;background-color: #ccc;
+			text-align: center;padding-top: 120px;
+			box-sizing: border-box;
+		}
+
+		/*container*/
+		section.container{
+			width: 1000px;
+			background-color:violet;
+			margin: 0 auto;
+			padding: 10px;
+			box-sizing: border-box; /*안쪽으로 영역축소*/
+		}
+		section.container>aside.aside{
+			float: left;background-color: #fff;
+			width: 34%;height: 500px;text-align: center;
+		}
+		section.container>div.content{
+			float: right;background-color: #fff;
+			width: 65%;height: 500px;text-align: center;
+		}
+
+		/*footer*/
+		footer.footer{
+			width: 1000px;background-color:pink;
+			margin:0 auto;height: 50px;line-height:50px;text-align: center;
+		}
+
+
+
+		/*etc*/
+		.mb10{margin-bottom:10px !important;}
+
+
 
 	</style>
 </head>
 <body>
 	<!-- header.header>h1>{logo}^nav.nav>ul>li*5>a[href="#"]>{menu$}
 	header.header>(h1>{logo})+(nav.nav>ul>li*5>a[href="#"]>{menu$}) -->
-	<header class="header">
+	<header class="header mb10">
 		<h1>logo</h1>
 		<nav class="nav">
 			<ul class="clearfix">
@@ -46,9 +82,9 @@
 		</nav>
 	</header>
 
-	<div class="visual_slider">visual slider</div>
+	<div class="visual_slider mb10">visual<br>slider</div>
 
-	<section class="container">
+	<section class="container clearfix mb10">
 		<aside class="aside">aside</aside>
 		<div class="content">content</div>
 	</section>
