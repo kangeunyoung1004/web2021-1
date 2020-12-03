@@ -11,6 +11,23 @@
 		li{list-style:none}
 		.clearfix:after{content:"";display: block;clear: both;}
 
+		/*header*/ /*w1000px*/
+		header.header{
+			width: 1000px;
+			/*background-color:pink;*/
+			margin:0 auto; /*align center*/
+		}
+		header.header>h1{text-align: center;margin-bottom:10px;}
+		header.header>nav.nav{}
+		header.header>nav.nav>ul{}
+		header.header>nav.nav>ul>li{float: left;width: 200px;height: 40px;}
+		header.header>nav.nav>ul>li>a{
+			display: block;line-height:40px;text-align: center;
+			background-color:skyblue;
+		}
+		header.header>nav.nav>ul>li>a:hover{background-color:pink;color:white;}
+
+
 	</style>
 </head>
 <body>
@@ -19,7 +36,7 @@
 	<header class="header">
 		<h1>logo</h1>
 		<nav class="nav">
-			<ul>
+			<ul class="clearfix">
 				<li><a href="#">menu1</a></li>
 				<li><a href="#">menu2</a></li>
 				<li><a href="#">menu3</a></li>
@@ -35,7 +52,7 @@
 		<aside class="aside">aside</aside>
 		<div class="content">content</div>
 	</section>
-	
+
 	<footer class="footer">
 		footer
 	</footer>
