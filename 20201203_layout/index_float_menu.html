@@ -9,6 +9,37 @@
 		*{margin: 0;padding: 0;}
 		a:link,a:visited{color: #000;text-decoration: none;}
 		li{list-style:none}
+		.clearfix:after{content:"";display: block;clear:both;}
+
+		/*nav*/
+		nav.nav{
+			width: 1000px;
+			/*background-color:skyblue;*/
+			margin: 0 auto;
+		}
+		nav.nav>ul{}
+		nav.nav>ul>li{
+			float: left;width: 200px;height: 40px;
+		}
+/*		nav.nav>ul>li{
+			float: left;width: 200px;height: 40px;
+			background-color:orange;
+		}
+		nav.nav>ul>li:hover{background-color:violet;}
+		nav.nav>ul>li:hover a{color:white;}*/
+
+		nav.nav>ul>li>a{
+			display: block;
+			text-align: center;
+			line-height: 40px;
+			height: 40px;
+			background-color:orange;
+		}
+		nav.nav>ul>li>a:hover{
+			background-color:violet;
+			color:white;
+		}
+
 
 	</style>
 </head>
@@ -16,14 +47,19 @@
 
 	<nav class="nav">
 		<!-- ul>li*5>a[href="#"]>{menu$} -->
-		<ul>
+		<ul class="clearfix">
+			<!-- before -->
 			<li><a href="#">menu1</a></li>
 			<li><a href="#">menu2</a></li>
 			<li><a href="#">menu3</a></li>
 			<li><a href="#">menu4</a></li>
 			<li><a href="#">menu5</a></li>
+			<!-- after -->
 		</ul>
 	</nav>
+
+
+	<div style="background-color:#ccc;">test</div>
 
 
 </body>
