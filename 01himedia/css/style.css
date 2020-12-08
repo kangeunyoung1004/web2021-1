@@ -25,5 +25,9 @@ nav.gnbMenu li{
 }
 nav.gnbMenu li:first-child{border-left: 1px solid #fff;}
 nav.gnbMenu li a{
-	display: block;line-height:45px;text-align: center;color:white;
-}
+	display: block;line-height:45px;text-align: center;
+	color:white;font-weight:bold;}
+
+/*nav.gnbMenu li a:hover{background-color:skyblue;color:#1d5da4;}*/
+nav.gnbMenu li:hover{background-color:skyblue;color:red;}
+nav.gnbMenu li:hover a{color:#1d5da4;}
