@@ -31,3 +31,21 @@ nav.gnbMenu li a{
 /*nav.gnbMenu li a:hover{background-color:skyblue;color:#1d5da4;}*/
 nav.gnbMenu li:hover{background-color:skyblue;color:red;}
 nav.gnbMenu li:hover a{color:#1d5da4;}
+
+
+
+/*visual Wrap*/
+.visualWrap{
+	height: 400px;
+	/*background-color: #223a6a; 
+	background-image: url(../images/main_bg01.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;*/
+	background: #223a6a url(../images/main_bg01.jpg) no-repeat center;
+}
+.visualWrap .visual{
+	width: 980px;margin: 0 auto;
+	position: relative; /*img child poa*/
+}
+.visual img.visualImg1{position: absolute;left: 10px;top:70px;}
+.visual img.visualImg2{position: absolute;right:-50px;top:-10px;}
