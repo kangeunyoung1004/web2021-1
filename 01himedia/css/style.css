@@ -36,7 +36,7 @@ nav.gnbMenu li:hover a{color:#1d5da4;}
 
 /*visual Wrap*/
 .visualWrap{
-	height: 400px;
+	height: 400px;overflow:hidden;
 	/*background-color: #223a6a; 
 	background-image: url(../images/main_bg01.jpg); 
 	background-repeat: no-repeat;
@@ -49,3 +49,11 @@ nav.gnbMenu li:hover a{color:#1d5da4;}
 }
 .visual img.visualImg1{position: absolute;left: 10px;top:70px;}
 .visual img.visualImg2{position: absolute;right:-50px;top:-10px;}
+
+
+/*banner section*/
+.section{background: #eee;}
+ul.banner{
+	width: 980px;margin: 0 auto;
+}
+ul.banner li{float: left;}
