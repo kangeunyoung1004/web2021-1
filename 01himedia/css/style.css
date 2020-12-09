@@ -62,10 +62,23 @@ ul.banner li:nth-child(2){background: #4f74a1;}
 ul.banner li:nth-child(3){background: #4b8ce0;}
 ul.banner li:nth-child(4){background: #3db5f2;}
 ul.banner li:nth-child(5){background: #95c8ff;}
-ul.banner a{display: block;height: 196px;text-align: center;color:#fff;padding: 17px;}
+ul.banner a{display: block;height: 196px;text-align: center;color:#fff;}
 ul.banner p{font-size:12px;}
 
+/*margin bottom*/
 .mb5{margin-bottom: 5px !important;}
 .mb10{margin-bottom: 10px !important;}
 .mb15{margin-bottom: 15px !important;}
 .mb20{margin-bottom: 20px !important;}
+
+/*padding all*/
+.pa5{padding: 5px !important;}
+.pa10{padding: 10px !important;}
+.pa15{padding: 15px !important;}
+.pa20{padding: 20px !important;}
+
+/*padding top*/
+.pt5{padding-top: 5px !important;}
+.pt10{padding-top: 10px !important;}
+.pt15{padding-top: 15px !important;}
+.pt20{padding-top: 20px !important;}
