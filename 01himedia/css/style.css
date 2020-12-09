@@ -68,13 +68,17 @@ ul.banner img{margin: 0 auto}
 
 /*content section #1st */
 .contWrapOne{width: 980px;margin: 0 auto;}
-.content li{float: left;width: 310px;margin-left:25px;}
+.content li{float: left;width: 310px;margin-left:25px;cursor:pointer;}
 .content li:first-child{margin-left:0;}
 .content div.body{
 	border: 1px solid #ccc;
 	border-top: 0 none;
 }
-
+.content div.body p{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
 
 
 
