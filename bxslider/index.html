@@ -11,13 +11,22 @@
 	<script src="js/jquery.bxslider.js"></script>
 	<script>
 		$(document).ready(function(){
-			$(".slider").bxSlider();
+			$(".slider1").bxSlider({
+				mode:'vertical',
+				auto:true
+			});
 		});
 
+		// $(document).ready();
+		// $(document).ready(function(){ 실행문; });
+
 	</script>
+	<style>
+		.slider1 img{width: 100%;}
+	</style>
 </head>
 <body>
-	<ul class="slider">
+	<ul class="slider1">
 		<li><img src="images/pc01.jpg" alt="img1"></li>
 		<li><img src="images/pc02.jpg" alt="img2"></li>
 		<li><img src="images/pc03.jpg" alt="img3"></li>
