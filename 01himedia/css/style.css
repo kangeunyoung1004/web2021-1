@@ -68,19 +68,27 @@ ul.banner img{margin: 0 auto}
 
 /*content section #1st */
 .contWrapOne{width: 980px;margin: 0 auto;}
-.content li{float: left;width: 310px;margin-left:25px;cursor:pointer;}
-.content li:first-child{margin-left:0;}
-.content div.body{
+.contWrapOne .content li{float: left;width: 310px;margin-left:25px;cursor:pointer;}
+.contWrapOne .content li:first-child{margin-left:0;}
+.contWrapOne .content div.body{
 	border: 1px solid #ccc;
 	border-top: 0 none;
 }
-.content div.body p{
+.contWrapOne .content div.body p{
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
 
-
+/*content section #2st*/
+.contWrapTwo{width: 980px;margin: 0 auto}
+.contWrapTwo .content li{
+	float: left;width: 310px;margin-right: 25px;
+	border: 1px solid #ddd;padding:20px;
+}
+.contWrapTwo .content li:last-child{margin-right: 0;}
+.contWrapTwo .content .body{width: 150px;}
+.contWrapTwo .content .body a{font-size:14px;color:#4b8ce0;}
 
 
 /*margin bottom*/
