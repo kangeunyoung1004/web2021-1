@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>container</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<style>
+		.container{
+			width: 1200px;margin: 0 auto;
+		}
+		.container p{margin-bottom: 10px;}
+		
+		.dot:after{
+			content:"";display: block;
+			width: 10px;height: 10px;
+			background: #000;
+			border-radius:5px;
+			margin: 0 auto;
+		}
+
+		.dot:before{
+			content:"";display: block;
+			width: 10px;height: 10px;
+			background: #000;
+			border-radius:5px;
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+
+		.pa20{padding: 20px;}
+		.c_gray{background: #ccc;}
+	</style>
+</head>
+<body>
+	<div class="container pa20 c_gray dot">
+		<!-- before -->
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, veniam, illo. Rerum beatae provident officiis, praesentium ullam animi, quis eligendi, sunt inventore molestias vel ad doloribus commodi sequi omnis quidem!</p>
+		<!-- after -->
+	</div>
+	<div class="container">
+		<h2>GALLERY</h2>
+		<p>Lorem, ipsum dolor sit amet.</p>
+	</div>
+</body>
+</html>
