@@ -87,6 +87,25 @@ ul.banner img{margin: 0 auto}
 	border: 1px solid #ddd;padding:20px;
 }
 .contWrapTwo .content li:last-child{margin-right: 0;}
+
+.contWrapTwo .content li:nth-child(1){
+	background-image: url(../images/content_icon01.png);
+	background-repeat: no-repeat;
+	background-position: 150px 10px;
+}
+
+.contWrapTwo .content li:nth-child(2){
+	background-image: url(../images/content_icon02.png);
+	background-repeat: no-repeat;
+	background-position: 130px 0;
+}
+.contWrapTwo .content li:nth-child(3){
+	background-image: url(../images/content_icon03.png);
+	background-repeat: no-repeat;
+	background-position: 130px 0;
+}
+
+
 .contWrapTwo .content .body{width: 150px;}
 .contWrapTwo .content .body a{font-size:14px;color:#4b8ce0;}
 
