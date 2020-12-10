@@ -17,9 +17,21 @@
 			content:"";display: block;width: 200px;height: 1px;
 			background: #000;margin: 5px auto;
 		}
-		.contents li{float: left;width: 288.75px;margin-right:15px;}
+		.contents li{
+			float: left;width: 288.75px;margin-right:15px;
+			position: relative;
+		}
 		.contents li:last-child{margin-right: 0;}
 		.contents img{width: 100%;}
+		.contents .overlay{
+			position: absolute;top:0;
+			width: 100%;height: 100%;
+			background:rgba(0,0,255,0.3);
+			color:white;text-align: center;
+			line-height:288px;/*display: none;*/opacity:0;
+			transition:0.3s;
+		}
+		.contents li:hover .overlay{/*display: block;*/opacity:1;}
 		
 		.dot:after{
 			content:"";display: block;
@@ -53,10 +65,23 @@
 		<p>Lorem, ipsum dolor sit amet.</p>
 		<div class="contents">
 			<ul class="clearfix">
-				<li><img src="../images/testimg.jpg" alt=""></li>
-				<li><img src="../images/testimg.jpg" alt=""></li>
-				<li><img src="../images/testimg.jpg" alt=""></li>
-				<li><img src="../images/testimg.jpg" alt=""></li>
+				<li>
+					<img src="../images/testimg.jpg" alt="">
+					<div class="overlay">image1</div>
+				</li>
+				<li>
+					<img src="../images/testimg.jpg" alt="">
+					<div class="overlay">image2</div>
+				</li>
+				<li>
+					<img src="../images/testimg.jpg" alt="">
+					<div class="overlay">image3</div>
+				</li>
+				<li>
+					<img src="../images/testimg.jpg" alt="">
+					<div class="overlay">image4</div>
+				</li>
+				
 			</ul>
 		</div>
 	</div>
