@@ -15,7 +15,8 @@
 			float: left;margin-right:25px;
 			width: 231.25px;height:231.25px;
 			position: relative;border-radius:10px;
-			overflow:hidden;cursor:pointer
+			overflow:hidden;cursor:pointer;
+			box-shadow:10px 10px 10px #eee
 		}
 		.contents.gall li:last-child{margin-right:0;}
 		.contents.gall img{width: 100%;display: block;}
@@ -39,7 +40,7 @@
 		.contents.news li{
 			float: left;width: 180px;height: 180px;
 			margin-right: 25px;position: relative;
-			cursor:pointer;
+			cursor:pointer;overflow:hidden;
 		}
 		.contents.news li img{width: 100%;display: block;}
 		.contents.news li:last-child{margin-right: 0;}
@@ -47,7 +48,7 @@
 		.contents.news .overlay{
 			width: 100%;height: 100%;
 			background:rgba(0,0,0,0.5);position: absolute;
-			top:0;left:0;opacity:0;transition:0.3s;
+			left:0;bottom:-180px;opacity:0;transition:0.3s;
 		}
 		.contents.news .txt{
 			width: 100px;height: 100px;
@@ -56,7 +57,9 @@
 			margin-left:-50px;margin-top:-50px;
 			border-radius:50px;line-height:100px;
 		}
-		.contents.news li:hover .overlay{opacity:1;}
+		.contents.news li:hover .overlay{
+			opacity:1;left:0;bottom:0;
+		}
 
 		.color1{background:#eee;}
 		.color2{background:pink;}
@@ -129,70 +132,5 @@
 		</div>
 	</div>
 
-	<div class="container pt20 pb20">
-		<h2 class="tac h2line">GALLERY </h2>
-		<p class="tac mb15">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		<ul class="contents gall clearfix">
-			<li>
-				<img src="../images/testimg.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="txt tac">파리여행</div>
-			</li>
-			<li>
-				<img src="../images/testimg.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="txt tac">파리여행</div>
-			</li>
-			<li>
-				<img src="../images/testimg.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="txt tac">파리여행</div>
-			</li>
-			<li>
-				<img src="../images/testimg.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="txt tac">파리여행</div>
-			</li>
-		</ul>
-	</div>
-
-	<div class="color2">
-		<div class="container pt20 pb20">
-			<h2 class="tac h2line">NEWS</h2>
-			<p class="tac mb15">Lorem, ipsum dolor sit amet.</p>
-			<ul class="contents news clearfix">
-				<li>
-					<img src="../images/testimg.jpg" alt="">
-					<div class="overlay">
-						<div class="txt tac">세계여행</div>
-					</div>
-				</li>
-				<li>
-					<img src="../images/testimg.jpg" alt="">
-					<div class="overlay">
-						<div class="txt tac">세계여행</div>
-					</div>
-				</li>
-				<li>
-					<img src="../images/testimg.jpg" alt="">
-					<div class="overlay">
-						<div class="txt tac">세계여행</div>
-					</div>
-				</li>
-				<li>
-					<img src="../images/testimg.jpg" alt="">
-					<div class="overlay">
-						<div class="txt tac">세계여행</div>
-					</div>
-				</li>
-				<li>
-					<img src="../images/testimg.jpg" alt="">
-					<div class="overlay">
-						<div class="txt tac">세계여행</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
 </body>
 </html>
