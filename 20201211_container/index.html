@@ -10,38 +10,64 @@
 
 
 /*common css*/
-		.tac{text-align: center;}
+		.tac{text-align: center !important;}
+
 		/*padding top*/
 		.pt20{padding-top: 20px !important;}
 
 		/*padding bottom*/
 		.pb20{padding-bottom: 20px !important;}
+
+		.contents.gall li{
+			float: left;margin-right:25px;
+			width: 231.25px;height:231.25px;
+			position: relative;border-radius:10px;
+			overflow:hidden;cursor:pointer
+		}
+		.contents.gall li:last-child{margin-right:0;}
+		.contents.gall img{width: 100%;display: block;}
+		.contents.gall .overlay{
+			width: 100%;height: 100%;background-color:rgba(0,0,255,0.3);
+			position: absolute;top:0;left:0;opacity:0;transition:0.3s;
+		}
+		.contents.gall .txt{
+			width: 100px;height: 100px;
+			background:#000;
+			position: absolute;
+			top:50%;left:50%;
+			margin-left:-50px;margin-top:-50px;
+			line-height: 100px;/*display: none;*/opacity:0;transition:0.3s;
+			color:#fff;border-radius:50px;
+		}
+		.contents.gall li:hover .overlay{opacity:1;}
+		.contents.gall li:hover .txt{/*display: block;*/opacity:1;}
+
 	</style>
 </head>
 <body>
 	<div class="container pt20 pb20">
 		<h2 class="tac">GALLERY</h2>
 		<p class="tac">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		<ul class="contents">
+		<ul class="contents gall">
 			<li>
 				<img src="../images/testimg.jpg" alt="">
 				<div class="overlay"></div>
-				<div class="txt">파리여행</div>
+				<div class="txt tac">파리여행</div>
 			</li>
 			<li>
 				<img src="../images/testimg.jpg" alt="">
 				<div class="overlay"></div>
-				<div class="txt">파리여행</div>
+				<div class="txt tac">파리여행</div>
 			</li>
 			<li>
 				<img src="../images/testimg.jpg" alt="">
 				<div class="overlay"></div>
-				<div class="txt">파리여행</div>
+				<div class="txt tac">파리여행</div>
 			</li>
 			<li>
 				<img src="../images/testimg.jpg" alt="">
 				<div class="overlay"></div>
-				<div class="txt">파리여행</div>
+				<div class="txt tac">파리여행</div>
 			</li>
 		</ul>
 	</div>
