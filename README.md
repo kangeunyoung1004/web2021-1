@@ -9,7 +9,7 @@
 1. 강태진	https://github.com/kangtaejin90
 1. 김가람	https://github.com/dkrl0053
 1. 김세화	https://github.com/kimsehwa0320
-1. 김태훈	
+1. 김태훈	https://github.com/kinm229
 1. 문경현	https://github.com/lindsaymoon
 1. 서범준	https://github.com/sbj0701
 1. 안태현	https://github.com/dksxogus98
