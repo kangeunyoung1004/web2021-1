@@ -4,7 +4,7 @@
 1. bxslider https://hanyong5.github.io/web2021/bxslider/index_slider03.html
 
 
-#class
+# class
 1. 강은영	https://github.com/kangeunyoung1004
 1. 강태진	https://github.com/kangtaejin90
 1. 김가람	https://github.com/dkrl0053
