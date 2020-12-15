@@ -9,7 +9,7 @@
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
 	<script>
-		$(document).ready(function(){
+		$(document).ready(function(){ //jquery start
 
 			var mySlider = $("ul.slider").bxSlider({
 				auto:true,
@@ -17,6 +17,8 @@
 				controls:false,
 				pager:false
 			});
+
+   		 //$(".nextBtn").clcick(function(){ 실행문; });
 
 			$(".nextBtn").click(function(){
 				mySlider.goToNextSlide();
@@ -26,7 +28,7 @@
 			});
 
 
-		});
+		}); // jquery end
 	</script>
 	<style>
 		.slider img{width: 100%;display: block;}
