@@ -10,13 +10,13 @@
 1. 김가람	https://github.com/dkrl0053
 1. 김세화	https://github.com/kimsehwa0320
 1. 김태훈	
-1. 문경현	https://github.com/lindsaymoon/mywebsite
-1. 서범준	https://github.com/sbj0701/web2021
+1. 문경현	https://github.com/lindsaymoon
+1. 서범준	https://github.com/sbj0701
 1. 안태현	https://github.com/dksxogus98
 1. 이진주	https://github.com/leeann2642
 1. 조민선	https://github.com/1page189
-1. 조소윤	https://github.com/whthdbs9604/2021_web2
+1. 조소윤	https://github.com/whthdbs9604
 1. 조소현	https://github.com/sho9805
-1. 한태희	https://github.com/kmd2410/
+1. 한태희	https://github.com/kmd2410
 
 
