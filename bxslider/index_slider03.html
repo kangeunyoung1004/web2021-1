@@ -12,8 +12,9 @@
 		$(document).ready(function(){
 			$(".slider").bxSlider({
 				controls:false,
-				pager:false,
-				auto:true
+				//pager:false,
+				//auto:true,
+				pagerCustom:".sliderTab"
 			});
 		});
 	</script>
@@ -45,6 +46,20 @@
 		.slider .txtWrap a:hover{
 			background:#000;color:#fff;
 		}
+
+		.sliderWrap{position: relative;}
+
+		.sliderWrap .sliderTab{
+			position: absolute;left: 0;bottom: 0;
+			width: 100%;
+		}
+		.sliderWrap .sliderTab a{
+			float: left;
+			display: block;width: 25%;line-height:40px;
+			background:#f00;text-align: center;
+			color:#fff;font-size:1.5em;
+		}
+		.sliderWrap .sliderTab a:hover{background:orange;}
 	</style>
 </head>
 <body>
@@ -53,7 +68,7 @@
 			<li>
 				<img src="images/main_slider01.jpg" alt="">
 				<div class="txtWrap">
-					<h2>Lorem ipsum dolor sit.</h2>
+					<h2>Lorem ipsum dolor sit.1</h2>
 					<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Repellendus, id?</p>
 					<a href="#" class="btn">바로가기</a>
 				</div>
@@ -61,7 +76,7 @@
 			<li>
 				<img src="images/main_slider01.jpg" alt="">
 				<div class="txtWrap">
-					<h2>Lorem ipsum dolor sit.</h2>
+					<h2>Lorem ipsum dolor sit.2</h2>
 					<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Repellendus, id?</p>
 					<a href="#" class="btn">바로가기</a>
 				</div>
@@ -69,13 +84,26 @@
 			<li>
 				<img src="images/main_slider01.jpg" alt="">
 				<div class="txtWrap">
-					<h2>Lorem ipsum dolor sit.</h2>
+					<h2>Lorem ipsum dolor sit.3</h2>
 					<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Repellendus, id?</p>
 					<a href="#" class="btn">바로가기</a>
 				</div>
 			</li>
-			
+			<li>
+				<img src="images/main_slider01.jpg" alt="">
+				<div class="txtWrap">
+					<h2>Lorem ipsum dolor sit.4</h2>
+					<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Repellendus, id?</p>
+					<a href="#" class="btn">바로가기</a>
+				</div>
+			</li>
 		</ul>
+		<div class="sliderTab">
+			<a href="#" data-slide-index="0">MENU1</a>
+			<a href="#" data-slide-index="1">MENU2</a>
+			<a href="#" data-slide-index="2">MENU3</a>
+			<a href="#" data-slide-index="3">MENU4</a>
+		</div>
 	</div>
 </body>
 </html>
