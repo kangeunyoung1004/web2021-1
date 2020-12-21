@@ -71,21 +71,32 @@ legend,.blind{
 	border-right:1px solid #eee;
 	text-align: center;line-height: 49px;color:#999;
 }
-#content fieldset .field.birth select{
+#content fieldset .field.birth select,
+#content fieldset .field.confirm select
+{
 	float: left;
 	width: 110px;height: 29px;border:0 none;
 	font-size:15px;line-height:29px;margin-top: 10px;
 	margin-left: 10px;margin-right:7px;
 }
-#content fieldset .field.birth .field_wall{
+
+#content fieldset .field.birth .field_wall,
+#content fieldset .field.confirm .field_wall
+{
 	float: left;
 	width: 0;height: 29px;border-right: 1px solid #cdcdcd;
 	text-indent: -999px;margin-top:10px;
 }
-#content fieldset .field.birth input{float: left;}
+
+
+
+#content fieldset .field.birth input,
+#content fieldset .field.confirm input
+{float: left;}
 
 /*common*/
 .w458{width: 458px !important;}
+.w205{width: 205px !important;}
 .w145{width: 145px !important;}
 .w150{width: 150px !important;}
 .w130{width: 130px !important;}
