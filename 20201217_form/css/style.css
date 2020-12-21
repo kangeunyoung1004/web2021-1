@@ -56,3 +56,15 @@ legend,.blind{
 	background:#1fbc02 url(../images/btn_join2.gif) no-repeat 50% -3px;
 	text-indent: -9999px;cursor:pointer;
 }
+#content fieldset .field.btn-radio{height: 49px;}
+#content fieldset .field .btn-label{
+	display: block;width: 212px;height: 31px;border: 1px solid #dcdcdc;
+	text-align: center;line-height:31px;background: #fff;cursor:pointer;
+	position: absolute;top:8px;
+}
+#content fieldset .field .btn-label.male{left: 15px;}
+#content fieldset .field .btn-label.female{right: 15px;}
+#content fieldset .field.btn-radio input{position: relative;left: 50px;top: 14px;}
+
+/*common*/
+.w458{width: 458px !important;}

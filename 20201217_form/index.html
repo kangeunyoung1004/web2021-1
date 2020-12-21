@@ -24,15 +24,30 @@
 						</div>
 						<div class="field">
 							<label for="user-pass" class="blind">패스워드</label>
-							<input type="text" id="user-pass" name="userpass" placeholder="비밀번호입력" required class="inp-field">
+							<input type="password" id="user-pass" name="userpass" placeholder="비밀번호입력" required class="inp-field">
 							<span class="icon pass">password</span>
 						</div>
 						<div class="field">
 							<label for="user-pass2" class="blind">패스워드 확인</label>
-							<input type="text" id="user-pass2" name="userpass2" placeholder="패스워드확인" required class="inp-field">
+							<input type="password" id="user-pass2" name="userpass2" placeholder="패스워드확인" required class="inp-field">
 							<span class="icon pass2">password</span>
 						</div>
 					</fieldset>
+
+					<fieldset>
+						<legend>개인정보</legend>
+						<div class="field">
+							<label for="username" class="blind">이름</label>
+							<input type="text" id="username" name="name" placeholder="이름" class="inp-field w458" required>
+						</div>
+						<div class="field btn-radio">
+							<label for="male" class="btn-label male">남자</label>
+							<input type="radio" id="male" name="users" value="남자">
+							<label for="female" class="btn-label female">여자</label>
+							<input type="radio" id="female" name="users" value="여자">
+						</div>
+					</fieldset>
+
 					<div class="btn-area">
 						<input type="submit" value="가입하기" class="btn-submit">
 					</div>
