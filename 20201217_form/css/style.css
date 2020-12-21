@@ -88,14 +88,20 @@ legend,.blind{
 	text-indent: -999px;margin-top:10px;
 }
 
-
-
 #content fieldset .field.birth input,
 #content fieldset .field.confirm input
 {float: left;}
 
+#content fieldset .field.confirm .btn-click{
+	width:99px;height: 31px;border: 1px solid #dcdcdc;
+	background: #fff;cursor: pointer;margin-left: 13px;margin-top:8px;
+}
+
+
+
 /*common*/
 .w458{width: 458px !important;}
+.w300{width: 300px !important;}
 .w205{width: 205px !important;}
 .w145{width: 145px !important;}
 .w150{width: 150px !important;}
