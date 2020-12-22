@@ -15,11 +15,11 @@
 			animation-iteration-count: infinite; /*반복*/
 			animation-direction:alternate; /*방향*/
 			animation-delay:1s; /*지연시간*/
-			animation-timing-function: ease /*애니메이션모양*/
+			animation-timing-function: linear; /*애니메이션모양*/
 		}
 		@keyframes ani{
-			from{width: 100px;}
-			to{width: 200px;}
+			from{width: 100px;background: #f00;opacity:0;}
+			to{width: 200px;background: #00f;opacity:1;}
 			/*0{width: 100px;}
 			50%{width: 200px;}
 			100%{width: 100px;}*/
